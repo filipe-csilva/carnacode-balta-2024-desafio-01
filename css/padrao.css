@@ -7,6 +7,28 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.session__inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__div{
+    width: 520px;
+    height: 890px;
+}
+
+.title__basic{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title__secondary{
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .primary__div{
@@ -17,7 +39,7 @@ body {
 }
 
 .input__config{
-    padding: 1.5em 14em 1.5em 0em;
+    padding: 1.5em 19em 1.5em 0em;
     border: solid 1px;
     background-color: #F6F6F6;
     border-color: #E8E8E8;
@@ -30,4 +52,39 @@ body {
     font-weight: 500;
     color: #BDBDBD;
     padding: 1em;
+}
+
+.primary__button{
+    padding: 1em 8em;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button__calcular,
+.button__entenda:hover{
+    cursor: pointer;
+}
+
+.button__calcular{
+    background-color: #45FEFE;
+    border: none;
+    border: 3px solid;
+    border-color: #45FEFE;
+}
+
+.button__entenda{
+    border: 3px solid;
+    background-color: #FFFFFF;
+    border-color: #45FEFE;
+}
+
+.img__logo{
+    width: 70.82px;
+    position: absolute;
+    padding: 0.7em;
+    background-color: var(--cor-branco);
+    border-radius: 25px;
+    border: solid 3px #45FEFE;
+    margin-top: -110px;
 }

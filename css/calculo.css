@@ -1,0 +1,36 @@
+@import url("./padrao.css");
+
+.titulo{
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 2px 3px 1px #AAAAAA;
+}
+
+.primary__imputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.input__config{
+    border-radius: 7px;
+}
+
+.checkbox{
+    display: flex;
+    width: 343px;
+    flex-direction: row;
+    align-items:initial;
+    gap: 5px;
+    color: #666666;
+}
+
+.primary__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.primary__button{
+    padding: 1em 8.9em;
+}

@@ -1,0 +1,56 @@
+@import url("./padrao.css");
+
+.principal__div{
+    background-color: #2E1462;
+    display: flex;
+    align-items: center;
+}
+
+.principal__login{
+    width: 466px;
+    background-color: var(--cor-branco);
+    margin-left: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    gap: 1.2em;
+    padding: 3em 0;
+}
+
+.div__titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+    text-align: center;
+}
+
+.primary__imputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.input__config{
+    border-radius: 7px;
+}
+
+.checkbox{
+    display: flex;
+    width: 420px;
+    flex-direction: row;
+    align-items:initial;
+    gap: 5px;
+    color: #666666;
+}
+
+.primary__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.button__calcular{
+    padding: 1em 10.3em;
+}

@@ -1,0 +1,13 @@
+@import url("./login.css");
+
+.button__calcular{
+    padding: 1em 9.2em;
+}
+
+.div__titulos{
+    width: 18em;
+}
+
+.title__secondary{
+    width: 16em;
+}

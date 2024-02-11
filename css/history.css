@@ -9,6 +9,11 @@
     border-color: #45FEFE;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .input__config{
     border-radius: 25px;
 }
