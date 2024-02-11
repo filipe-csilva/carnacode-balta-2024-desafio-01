@@ -1,12 +1,72 @@
-.flex {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+
+.primary__div{
+    font-family: 'Inter', sans-serif;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
-.flex-row {
-    flex-direction: row;
+.titulo{
+    font-size: 30px;
+    font-weight: 900;
 }
 
-.input-text {
+.primary__imputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.input__config{
+    padding: 1.5em 14em 1.5em 0em;
+    border-radius: 7px;
+    border: solid 1px;
     background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+    border-color: #E8E8E8;
+    text-decoration: none;
+}
+
+.input__config::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
+    padding: 1em;
+}
+
+.checkbox{
+    display: flex;
+    width: 343px;
+    flex-direction: row;
+    align-items:initial;
+    gap: 5px;
+    color: #666666;
+}
+
+.primary__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.primary__button{
+    padding: 1em 6.7em;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button__calcular{
+    background-color: #45FEFE;
+    border: none;
+    border: 3px solid;
+    border-color: #45FEFE;
+}
+
+.button__entenda{
+    border: 3px solid;
+    background-color: #FFFFFF;
+    border-color: #45FEFE;
 }
